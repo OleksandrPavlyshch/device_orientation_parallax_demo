@@ -57,3 +57,17 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
  * { -webkit-text-size-adjust: none; } }
+
+@media screen and (max-width: 1025px) {
+
+ .slide_inner { height: 100%; }
+
+ .slide_image { height: 100%; }
+
+ .slide_image img { max-width: 80% !important; max-height: 80% !important; position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto; }
+
+ .slide_description { top: 15%; width: 74%; height: 71%; } }
+
+@media screen and (max-width: 760px) {
+
+ .slide_description { top: 21%; width: 54%; height: 55%; border-width: 2px; } }
