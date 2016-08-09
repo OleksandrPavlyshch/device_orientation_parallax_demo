@@ -54,6 +54,8 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
 .slider { overflow: hidden; height: 100%; width: 100%; background-color: #c1262a; }
 
+.angeles { position: fixed; z-index: 1000; top: 10%; left: 10%; font-size: 25px; }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
  * { -webkit-text-size-adjust: none; } }
