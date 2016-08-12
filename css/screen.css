@@ -70,7 +70,7 @@ a, a:before, .button, button, button:before, input[type="button"], input[type="s
 
  .slide_image { height: 100%; transform: translateZ(-10px); }
 
- .slide_image img { max-width: 75% !important; max-height: 75% !important; position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto; }
+ .slide_image img { max-width: 70% !important; max-height: 75% !important; position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto; }
 
  .slide_description { transform: translateZ(80px); top: 14%; width: 72%; height: 75%; }
 
